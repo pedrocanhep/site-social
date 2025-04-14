@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* configurações gerais */
+* {
+    margin: 0px; 
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* configurações de imagem das telas */
+img {
+    display: block;
+    width: 267px;
+}
+
+/* configurações dos links para as redes sociais */
+a#insta {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #fff93d, #e61c2d, #f700ff, #5900ff);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#insta:hover {
+    background-image: none;
+    background-color: #f700ff;
+}
+
+a#yt {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #cd0011;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#yt:hover {
+    background-image: none;
+    background-color: #ff2414;
+}
+
+a#face {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #1202c0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#face:hover {
+    background-image: none;
+    background-color: #0044ff;
+}
+
+a#twt {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #00cde0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#twt:hover {
+    background-image: none;
+    background-color: #007bff;
+}
+
+a#gh {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #20af4b;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#gh:hover {
+    background-image: none;
+    background-color: #147d34;
+}
+
+a#lk {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #077bff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+a#lk:hover {
+    background-image: none;
+    background-color: #178aef;
+}
